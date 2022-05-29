@@ -1,0 +1,70 @@
+.container{
+    padding: 5px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+p{
+font-size: 20px;
+
+word-spacing: 5px;
+}
+.img{
+  clip-path: circle();
+}
+.button button{
+border-radius: 35px;
+background-color: black;
+padding:15px;
+margin: 10px;
+color: white;
+}
+.button button:hover{
+cursor: pointer;
+background-color: white;
+color: black;
+}
+@media (min-width:200px) and (max-width:300px){
+h1{
+font-size: 18px;
+}
+h2{
+font-size: 14px;
+}
+h3{
+font-size: 14px;
+}
+p{
+font-size: 10px;
+}
+.button button{
+font-size: 5px;
+border-radius: 30px;
+background-color: black;
+padding:2px;
+margin: 2px;
+color: white;
+}
+}
+@media (min-width:300px) and (max-width:500px){
+h1{
+font-size: 25px;
+}
+h2{
+font-size: 20px;
+}
+h3{
+font-size: 20px;
+}
+p{
+font-size: 16px;
+}
+.button button{
+font-size: 8px;
+border-radius: 30px;
+background-color: black;
+padding:4px;
+margin: 3px;
+color: white;
+}
+}
